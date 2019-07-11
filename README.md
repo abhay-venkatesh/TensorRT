@@ -123,6 +123,11 @@ NOTE: Along with the TensorRT OSS components, the following source packages will
 
 ## Building The TensorRT OSS Components
 
+Export the right environment variables first,
+```bash
+export TRT_RELEASE=...
+```
+
 * Generate Makefiles and build.
 
 	```bash
